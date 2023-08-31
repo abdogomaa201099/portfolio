@@ -1,0 +1,31 @@
+.acard::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.0);
+    box-shadow:2px 2px 4px 0 rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+    
+  }
+  
+  .acard:hover::before {
+    opacity: 1;
+    border-radius: 10px;
+    
+  }
+
+  .box {
+
+    background-color: #fff;
+    border-radius: 10px; /* adjust the value to increase/decrease the rounding */
+    box-shadow: 
+      0 0 10px 0 rgba(0, 0, 0, 0.5), /* top left corner shadow */
+      0 200px 10px -200px rgba(0, 0, 0, 0.5), /* bottom left corner shadow */
+      200px 0 10px -200px rgba(0, 0, 0, 0.5), /* top right corner shadow */
+      200px 200px 10px -200px rgba(0, 0, 0, 0.5); /* bottom right corner shadow */
+  }
