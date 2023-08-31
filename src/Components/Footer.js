@@ -14,7 +14,7 @@ const Footer = () => {
 
                 </div>
                 <div className='flex-row mt-4'>
-                    <p style={{ color: '#BCA1D4' }}>@ 2023 Abd0AI.com</p>
+                    <p style={{ color: '#BCA1D4' }}>@ 2023 Abd0AI</p>
                 </div>
             </div>
         </Container>
