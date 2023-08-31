@@ -61,7 +61,7 @@ const Experience = () => {
                                 <h3 className="vertical-timeline-element-title">
                                     Bilarab Bin Sultan School, Bahla, Oman
                                 </h3>
-                                <p> High School Diploma</p>
+                                <p className="vertical-timeline-element-subtitle"> High School Diploma</p>
                             </div>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -80,7 +80,7 @@ const Experience = () => {
                                 <h6 className="vertical-timeline-element-subtitle">
                                     Bachelor's Degree
                                 </h6>
-                                <p> Computer Science</p>
+                                <p className="vertical-timeline-element-subtitle"> Computer Science</p>
                             </div>
 
                         </VerticalTimelineElement>
@@ -118,7 +118,7 @@ const Experience = () => {
                                 <h6 className="vertical-timeline-element-subtitle">
                                     Master Degree
                                 </h6>
-                                <p> Computer Science</p>
+                                <p className="vertical-timeline-element-subtitle"> Computer Science</p>
                             </div>
 
                         </VerticalTimelineElement>
@@ -136,7 +136,7 @@ const Experience = () => {
                                 <h6 className="vertical-timeline-element-subtitle">
                                     Selangor, Malaysia
                                 </h6>
-                                <p> Artificial Intelligence (Deep Learning)</p>
+                                <p className="vertical-timeline-element-subtitle"> Artificial Intelligence (Deep Learning)</p>
                             </div>
 
                         </VerticalTimelineElement>

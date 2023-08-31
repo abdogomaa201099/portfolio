@@ -11,9 +11,9 @@ const Navb = () => {
         <BrowserRouter>
             <Navbar className='container-fluid d-flex justify-content-center fs-5' style={{ backgroundColor: "#392A46", fontFamily: "math" }}>
                 <Nav>
-                    <NavLink className='m-2' style={{ textDecoration: "none", color: "#8A34FA", fontSize: 22 }} exact to="/">Home</NavLink>
-                    <NavLink className='m-2' style={{ textDecoration: "none", color: "#8A34FA", fontSize: 22 }} to="/experience">Experience</NavLink>
-                    <NavLink className='m-2' style={{ textDecoration: "none", color: "#8A34FA", fontSize: 22 }} to="/projects">Projects</NavLink>
+                    <NavLink className='m-2' style={{ textDecoration: "none", color: "#BCA1D4", fontSize: 22 }} exact to="/">Home</NavLink>
+                    <NavLink className='m-2' style={{ textDecoration: "none", color: "#BCA1D4", fontSize: 22 }} to="/experience">Experience</NavLink>
+                    <NavLink className='m-2' style={{ textDecoration: "none", color: "#BCA1D4", fontSize: 22 }} to="/projects">Projects</NavLink>
                 </Nav>
             </Navbar>
             <Routes>
