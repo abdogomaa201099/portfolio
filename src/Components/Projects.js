@@ -10,7 +10,7 @@ const Projects = () => {
 
         <div style={{ backgroundColor: '#392A46', height: "100vh" }}>
             <Container fluid className='p-0 m-0' style={{ backgroundColor: '#392A46' }}>
-                <Row className='d-flex justify-content-center  mx-0'>
+                <Row className='d-flex justify-content-center mx-0' style={{ paddingBottom: 222 }}>
                     {Object.entries(projectItems).map(([key, project]) => (
                         <NavLink key={key} to={"/projects/" + key} className='col-3 m-4 bgImage' style={{ color: "black", textDecorationLine: "none", padding: "0px" }}>
                             <Card className='acard shadow' style={{ width: "21vw", border: "none", backgroundColor: "#1F1926" }}>
