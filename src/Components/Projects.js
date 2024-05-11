@@ -16,7 +16,8 @@ const Projects = () => {
                             <Card className='acard shadow' style={{ width: "21vw", border: "none", backgroundColor: "#1F1926" }}>
                                 <Card.Img src={project.mainImg} alt='project' style={{ minHeight: "15vw", maxHeight: "15vw" }} />
                                 <Card.Body>
-                                    <Card.Title style={{ height: "4.5vw", color: "#BCA1D4", fontSize: "1.7vw" }}>{project.title}</Card.Title>
+                                    <Card.Title style={{ height: "4.5vw", color: "#BCA1D4", fontSize: "1.7vw" }}>{project.title}</Card.Title><div className="vertical-timeline-element-subtitle col-11"> High School Diploma</div>
+                                    <div className="d-flex justify-content-end m-0"><i style={{ color: '#8A34FA' }}>More...</i> </div>
                                 </Card.Body>
                             </Card>
                         </NavLink>

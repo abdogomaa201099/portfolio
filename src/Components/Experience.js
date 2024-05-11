@@ -61,7 +61,10 @@ const Experience = () => {
                                 <h3 className="vertical-timeline-element-title">
                                     Bilarab Bin Sultan School, Bahla, Oman
                                 </h3>
-                                <p className="vertical-timeline-element-subtitle"> High School Diploma</p>
+                                <div className='d-flex flex-row pt-2'>
+                                    <div className="vertical-timeline-element-subtitle col-11"> High School Diploma</div>
+                                    <div className="vertical-timeline-element-subtitle justify-content-end"><i style={{ color: '#8A34FA' }}>More...</i> </div>
+                                </div>
                             </div>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -80,7 +83,10 @@ const Experience = () => {
                                 <h6 className="vertical-timeline-element-subtitle">
                                     Bachelor's Degree
                                 </h6>
-                                <p className="vertical-timeline-element-subtitle"> Computer Science</p>
+                                <div className='d-flex flex-row pt-2'>
+                                    <div className="vertical-timeline-element-subtitle col-11"> Computer Science</div>
+                                    <div className="vertical-timeline-element-subtitle justify-content-end"><i style={{ color: '#8A34FA' }}>More...</i> </div>
+                                </div>
                             </div>
 
                         </VerticalTimelineElement>
@@ -97,9 +103,11 @@ const Experience = () => {
                                 <h3 className="vertical-timeline-element-title">
                                     Junior Software Engineer Internship - W Tech
                                 </h3>
-                                <h5 className="vertical-timeline-element-subtitle">
-                                    Perak, Malaysia
-                                </h5>
+                                <div className='d-flex flex-row pt-2'>
+                                    <div className="vertical-timeline-element-subtitle col-11"> Perak, Malaysia</div>
+                                    <div className="vertical-timeline-element-subtitle justify-content-end"><i style={{ color: '#8A34FA' }}>More...</i> </div>
+                                </div>
+
 
                             </div>
                         </VerticalTimelineElement>
